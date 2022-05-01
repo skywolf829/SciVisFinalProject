@@ -250,7 +250,7 @@ def mixing_example(grid_resolution, image_resolution, duration):
     imageio.mimsave(save_path, frames, fps=30)
 
 if(__name__ == "__main__"):
-    #source_example([512,512], [512, 512], 500)
-    #image_example("GRAVITY.jpg", [512,512], [512, 512], 1500)
+    source_example([512,512], [512, 512], 500)
+    image_example("GRAVITY.jpg", [512,512], [512, 512], 1500)
     mixing_example([256,256], [256, 256], 1500)
     quit()
